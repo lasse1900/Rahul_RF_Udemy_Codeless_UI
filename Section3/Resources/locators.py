@@ -1,0 +1,8 @@
+name = "name:name"
+phone = "name:phone"
+email = "name:email"
+country = "name:country"
+city = "name:city"
+username = "xpath://*[@id='load_form']/fieldset[6]/input"
+password = "xpath://*[@id='load_form']/fieldset[7]/input"
+submitBtn = "xpath:(//*[@id='load_form']/div[1]/div[2]/input)[2]"

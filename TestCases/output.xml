@@ -1,97 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.1 (Python 3.11.0 on darwin)" generated="20221214 18:46:28.019" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.1 (Python 3.11.0 on darwin)" generated="20221219 16:25:55.163" rpa="false" schemaversion="3">
 <suite id="s1" name="Test Keywords" source="/Users/laurikyttala/coding/Udemy_Rahul_Arora_RF/TestCases/test_keywords.robot">
-<test id="s1-t1" name="Basic Test Case" line="6">
-<kw name="lauching browser">
+<test id="s1-t1" name="Basic Test Case" line="8">
+<kw name="lauching browser" library="commons">
 <arg>https://gmail.com</arg>
 <arg>chrome</arg>
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${url}</arg>
 <arg>${browserName}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221214 18:46:28.114" level="INFO">Opening browser 'chrome' to base url 'https://gmail.com'.</msg>
-<status status="PASS" starttime="20221214 18:46:28.114" endtime="20221214 18:46:30.101"/>
+<msg timestamp="20221219 16:25:55.278" level="INFO">Opening browser 'chrome' to base url 'https://gmail.com'.</msg>
+<status status="PASS" starttime="20221219 16:25:55.278" endtime="20221219 16:25:57.657"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <arg>10 seconds</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" starttime="20221214 18:46:30.101" endtime="20221214 18:46:30.102"/>
+<status status="PASS" starttime="20221219 16:25:57.657" endtime="20221219 16:25:57.658"/>
 </kw>
 <kw name="Log Title" library="SeleniumLibrary">
 <doc>Logs and returns the title of the current page.</doc>
-<msg timestamp="20221214 18:46:30.109" level="INFO">Gmail</msg>
-<status status="PASS" starttime="20221214 18:46:30.102" endtime="20221214 18:46:30.109"/>
+<msg timestamp="20221219 16:25:57.663" level="INFO">Gmail</msg>
+<status status="PASS" starttime="20221219 16:25:57.658" endtime="20221219 16:25:57.663"/>
 </kw>
-<status status="PASS" starttime="20221214 18:46:28.114" endtime="20221214 18:46:30.109"/>
+<status status="PASS" starttime="20221219 16:25:55.277" endtime="20221219 16:25:57.663"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:identifierId</arg>
 <arg>trainer@way2automation.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20221214 18:46:30.109" level="INFO">Typing text 'trainer@way2automation.com' into text field 'id:identifierId'.</msg>
-<status status="PASS" starttime="20221214 18:46:30.109" endtime="20221214 18:46:30.292"/>
+<msg timestamp="20221219 16:25:57.664" level="INFO">Typing text 'trainer@way2automation.com' into text field 'id:identifierId'.</msg>
+<status status="PASS" starttime="20221219 16:25:57.663" endtime="20221219 16:25:57.840"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="identifierNext"]/div/button/span</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221214 18:46:30.292" level="INFO">Clicking element '//*[@id="identifierNext"]/div/button/span'.</msg>
-<status status="PASS" starttime="20221214 18:46:30.292" endtime="20221214 18:46:30.368"/>
+<msg timestamp="20221219 16:25:57.841" level="INFO">Clicking element '//*[@id="identifierNext"]/div/button/span'.</msg>
+<status status="PASS" starttime="20221219 16:25:57.840" endtime="20221219 16:25:57.920"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>//*[@id="password"]/div[1]/div/div[1]/input</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<msg timestamp="20221214 18:46:40.772" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg timestamp="20221214 18:46:40.772" level="FAIL">Element '//*[@id="password"]/div[1]/div/div[1]/input' not visible after 5 seconds.</msg>
-<status status="FAIL" starttime="20221214 18:46:30.368" endtime="20221214 18:46:40.774"/>
+<status status="PASS" starttime="20221219 16:25:57.921" endtime="20221219 16:25:59.208"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>//*[@id="password"]/div[1]/div/div[1]/input</arg>
 <arg>asldkfsdfs</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20221214 18:46:40.774" endtime="20221214 18:46:40.774"/>
+<msg timestamp="20221219 16:25:59.208" level="INFO">Typing text 'asldkfsdfs' into text field '//*[@id="password"]/div[1]/div/div[1]/input'.</msg>
+<status status="PASS" starttime="20221219 16:25:59.208" endtime="20221219 16:25:59.265"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>//*[@id="passwordNext"]/div/button/span</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="NOT RUN" starttime="20221214 18:46:40.774" endtime="20221214 18:46:40.774"/>
+<status status="PASS" starttime="20221219 16:25:59.265" endtime="20221219 16:25:59.275"/>
 </kw>
-<status status="FAIL" starttime="20221214 18:46:28.114" endtime="20221214 18:46:40.774">Element '//*[@id="password"]/div[1]/div/div[1]/input' not visible after 5 seconds.</status>
+<status status="PASS" starttime="20221219 16:25:55.277" endtime="20221219 16:25:59.275"/>
 </test>
-<test id="s1-t2" name="Basic Test Case 2" line="14">
-<kw name="lauching browser">
+<test id="s1-t2" name="Basic Test Case 2" line="16">
+<kw name="lauching browser" library="commons">
 <arg>https://google.com</arg>
 <arg>chrome</arg>
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${url}</arg>
 <arg>${browserName}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221214 18:46:40.775" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
-<status status="PASS" starttime="20221214 18:46:40.775" endtime="20221214 18:46:42.459"/>
+<msg timestamp="20221219 16:25:59.276" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<status status="PASS" starttime="20221219 16:25:59.276" endtime="20221219 16:26:01.234"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <arg>10 seconds</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" starttime="20221214 18:46:42.459" endtime="20221214 18:46:42.460"/>
+<status status="PASS" starttime="20221219 16:26:01.234" endtime="20221219 16:26:01.237"/>
 </kw>
 <kw name="Log Title" library="SeleniumLibrary">
 <doc>Logs and returns the title of the current page.</doc>
-<msg timestamp="20221214 18:46:42.461" level="INFO">Google</msg>
-<status status="PASS" starttime="20221214 18:46:42.460" endtime="20221214 18:46:42.461"/>
+<msg timestamp="20221219 16:26:01.242" level="INFO">Google</msg>
+<status status="PASS" starttime="20221219 16:26:01.237" endtime="20221219 16:26:01.242"/>
 </kw>
-<status status="PASS" starttime="20221214 18:46:40.775" endtime="20221214 18:46:42.462"/>
+<status status="PASS" starttime="20221219 16:25:59.276" endtime="20221219 16:26:01.242"/>
 </kw>
-<status status="PASS" starttime="20221214 18:46:40.775" endtime="20221214 18:46:42.462"/>
+<status status="PASS" starttime="20221219 16:25:59.276" endtime="20221219 16:26:01.242"/>
 </test>
-<status status="FAIL" starttime="20221214 18:46:28.020" endtime="20221214 18:46:42.462"/>
+<status status="PASS" starttime="20221219 16:25:55.164" endtime="20221219 16:26:01.243"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="1" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="1" skip="0" id="s1" name="Test Keywords">Test Keywords</stat>
+<stat pass="2" fail="0" skip="0" id="s1" name="Test Keywords">Test Keywords</stat>
 </suite>
 </statistics>
 <errors>
