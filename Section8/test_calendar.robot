@@ -3,6 +3,8 @@ Resource        Resources/commons.robot
 Variables       Resources/locators.py
 
 Library    Built_In/CustomLib.py
+# you have to set your pythonpath within VSC
+# please see: -	https://stackoverflow.com/questions/71931370/robotframework-some-libraries-are-not-imported/72324894#72324894
 
 
 *** Keywords ***
