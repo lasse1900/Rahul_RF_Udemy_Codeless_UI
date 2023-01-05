@@ -1,0 +1,32 @@
+datasources:409d0a17ffc0810a5e4a90632d5a8d78429020c1
+commandlineoptions:da3bd1b1a4f48f02506802d5738199a45d9a4412
+suitesfrom:no-suites-from-option
+file:58ff8b1bb97d02ae1ca643e272ce321ea6311167
+--suite Udemy Rahul Arora RF.Allure Reports.First Test
+--suite Udemy Rahul Arora RF.Section11.Test Datadriven
+--suite Udemy Rahul Arora RF.Section3.Registration Test
+--suite Udemy Rahul Arora RF.Section3.Registration Test A
+--suite Udemy Rahul Arora RF.Section5.Registration Test
+--suite Udemy Rahul Arora RF.Section5.Test Alert
+--suite Udemy Rahul Arora RF.Section5.Test Dropdown
+--suite Udemy Rahul Arora RF.Section5.ifElse
+--suite Udemy Rahul Arora RF.Section5.loopsExample
+--suite Udemy Rahul Arora RF.Section5.rahuls windowHandling
+--suite Udemy Rahul Arora RF.Section5.test HandlingFrames
+--suite Udemy Rahul Arora RF.Section5.test checkBoxes
+--suite Udemy Rahul Arora RF.Section5.test windowHandling
+--suite Udemy Rahul Arora RF.Section6.Test Drag And Drop
+--suite Udemy Rahul Arora RF.Section6.Test Mouseover
+--suite Udemy Rahul Arora RF.Section6.Test Resizable
+--suite Udemy Rahul Arora RF.Section6.Test Right Click
+--suite Udemy Rahul Arora RF.Section6.Test Slider
+--suite Udemy Rahul Arora RF.Section7.Test Javascript
+--suite Udemy Rahul Arora RF.Section7.test HandlingFrames L44
+--suite Udemy Rahul Arora RF.Section7.test javascript Rahul
+--suite Udemy Rahul Arora RF.Section8.Test Calendar
+--suite Udemy Rahul Arora RF.Section8.Test Webtables
+--suite Udemy Rahul Arora RF.Section9.Handling Exceptions
+--suite Udemy Rahul Arora RF.TestCases.First Test
+--suite Udemy Rahul Arora RF.TestCases.Test Keywords
+--suite Udemy Rahul Arora RF.TestCases.Test Rahul
+--suite Udemy Rahul Arora RF.TestCases.Third Test

@@ -1,6 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 Variables    locators.py
+Library    pabot.PabotLib
 
 *** Variables ***
 

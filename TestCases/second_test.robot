@@ -9,6 +9,7 @@ Library    XML
 
 
 Basic Test Case
+    [Tags]    sanity
     Log    Basic Test Case
     open browser        https://dance-calendar.herokuapp.com/login    chrome
     log title

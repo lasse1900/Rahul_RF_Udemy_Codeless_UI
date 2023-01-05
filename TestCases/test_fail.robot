@@ -4,12 +4,14 @@ Library     SeleniumLibrary
 
 *** Test Cases ***
 Basic Test Case
+    [Tags]    sanity
     log    Basic Test case
-    open browser    https://gmail.com    chrome
-    # Open Browser    https://hotmail.com    chrome
-    click element        /html/body/header/div/aside/div/nav/ul/li[2]
-    log title
-    input text    id:identifierId    lauri.kyttala@hotmail.com
+    #open browser    https://gmail.com    chrome
+    Open Browser    https://hotmail.com    chrome
+    #click element        /html/body/header/div/aside/div/nav/ul/li[2]
+    Click Element    xpath:/html/body/header/div/aside/div/nav/ul/li[2]
+    log to console    title
+    #input text    id:identifierId    lauri.kyttala@hotmail.com
     #click element    //*[@id="identifierNext"]/div/button/span
     sleep    1
     # wait until element is visible    //*[@id="password"]/div[1]/div/div[1]/input    1 seconds
