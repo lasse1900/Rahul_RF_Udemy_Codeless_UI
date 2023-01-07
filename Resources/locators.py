@@ -13,3 +13,4 @@ tatacar_xpath = "//div[normalize-space()='Tata']"
 
 # CarBase Locators
 carheading_xpath = "//*[@id='root']/div[3]/div/div[2]/div/h1"
+carnames_xpath= "//div/div/div/a/h3"

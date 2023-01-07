@@ -29,6 +29,7 @@ Find New Cars
         log to console    Invalid car selected
     END
     verify car heading    ${carheading}
+    Get car name    
 
     sleep    2s
 
@@ -36,9 +37,6 @@ Find New Cars
 ${testsiteurl}=    https://www.carwale.com/
 
 
-
-
-
 *** Test Cases ***
-Find New Cars Test ${brandname}    ${browser}    ${brandname}    ${carheading}
+Get Cars Name Test ${brandname}    ${browser}    ${brandname}    ${carheading}
 
