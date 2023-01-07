@@ -12,4 +12,4 @@ maruticar_xpath = "//div[normalize-space()='Maruti Suzuki']"
 tatacar_xpath = "//div[normalize-space()='Tata']"
 
 # CarBase Locators
-carheading_xpath = "//*[@id='root']/div[2]/div/div[2]/div/h1"
+carheading_xpath = "//*[@id='root']/div[3]/div/div[2]/div/h1"

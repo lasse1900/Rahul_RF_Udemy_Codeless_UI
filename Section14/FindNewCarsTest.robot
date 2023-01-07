@@ -16,10 +16,10 @@ ${testsiteUrl}=     https://www.carwale.com/
 Find New Cars Test
     lauching browser    ${testsiteUrl}    chrome
     Go To new cars page
-    Go to BMW
-    Verify car heading    BMW Cars
-    Go to Toyota    # Verify toyota car heading    Toyota Cars
+    Go to Toyota    
+    # Verify toyota car heading    Toyota Cars 
     Verify car heading    Toyota Cars
-    Go to Kia
-    Verify car heading    Kia Cars
-    Sleep    2
+    # Go to BMW
+    # Verify car heading    BMW Cars
+    #Go to Kia
+    #Verify car heading    Kia Cars

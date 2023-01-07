@@ -3,8 +3,7 @@ Resource        ../Section8/Resources/commons.robot
 Variables       ../Section8/Resources/locators.py
 
 Library    ../Section8/Built_In/CustomLib.py
-Library    DataDriver    ../Section8/Resources/testdata.xlsx    Sheet1
-# set pythonpath https://stackoverflow.com/questions/71931370/robotframework-some-libraries-are-not-imported/72324894#72324894
+Library    DataDriver    ../Resources/testdata.xlsx    Sheet1
 
 Test Template    Handle Any Date
 
