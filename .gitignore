@@ -3,4 +3,5 @@
 *.png
 pabot_results
 node_modules
-
+Results 
+.pabotsuitenames
