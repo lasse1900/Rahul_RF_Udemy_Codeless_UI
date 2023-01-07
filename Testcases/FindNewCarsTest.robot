@@ -1,18 +1,25 @@
 *** Settings ***
+Resource            ../PageObjects/HomePage.robot
+Resource            ../Resources/commons.robot
+Resource            ../PageObjects/NewCarPage.robot
+Resource            ../PageObjects/ToytotaCarPage.robot
+Resource            ../PageObjects/CarPageCommon.robot
 
-Resource    ../PageObjects/HomePage.robot
-Resource    ../Resources/commons.robot
-Test Teardown    Finish Test Case
+Test Teardown       Finish Test Case
+
 
 *** Variables ***
-${testsiteUrl}=    https://www.carwale.com/
+${testsiteUrl}=     https://www.carwale.com/
 
 
 *** Test Cases ***
-Find New Cars Test 
+Find New Cars Test
     lauching browser    ${testsiteUrl}    chrome
     Go To new cars page
-    Sleep    3
-
-
-    
+    Go to BMW
+    Verify car heading    BMW Cars
+    Go to Toyota    # Verify toyota car heading    Toyota Cars
+    Verify car heading    Toyota Cars
+    Go to Kia
+    Verify car heading    Kia Cars
+    Sleep    2
