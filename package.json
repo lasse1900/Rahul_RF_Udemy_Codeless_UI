@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "allure-commandline": "^2.20.1"
+    "allure-commandline": "^2.20.1",
+    "appium": "^1.22.3",
+    "webdriverio": "^8.1.3"
   }
 }

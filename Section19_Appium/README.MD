@@ -1,0 +1,2 @@
+- with Mac use basic command: robot <testname>
+- set chromedriver path as preset to Appium GUI server: e.g. /Users/laurikyttala/bin/chromedriver
