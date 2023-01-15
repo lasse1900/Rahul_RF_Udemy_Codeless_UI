@@ -10,8 +10,6 @@ Launch Browser
     ...    platformVersion=11    browserName=Chrome
     go to url    http://google.com
     # Input Text    //*[@name='q']    Hello Robot
-    # go to url    http://www.iltasanomat.fi
+    go to url    http://www.iltasanomat.fi
     Sleep    2
     Close Application
-    
-
