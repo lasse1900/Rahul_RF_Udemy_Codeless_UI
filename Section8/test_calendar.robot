@@ -22,9 +22,10 @@ Handling Calendar
     Click Element    xpath://*[@id="datepicker"]
     Sleep    1
     click element    css:.ui-state-default.ui-state-highlight
-    print console
+    print to logfile
     print title
     select month    //*[@id="ui-datepicker-div"]/div/div/span[1]    January    14
 
     Sleep    2
+    close browser
 
